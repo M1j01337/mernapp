@@ -1,0 +1,19 @@
+{
+  "name": "mernapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M1j01337/mernapp.git"
+  },
+  "author": "Mijo Markovic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/M1j01337/mernapp/issues"
+  },
+  "homepage": "https://github.com/M1j01337/mernapp#readme"
+}
