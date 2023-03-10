@@ -9,9 +9,15 @@ connectDB();
 
 const app = express();
 
+
+// parse JSON payloads
 app.use(express.json());
+
+// parse URL-encoded payloads
 app.use(express.urlencoded({ extended: false }));
 
+// express routes
+app.use('/api/goals', require('./routes/goalRoutes'))
 
 
 
