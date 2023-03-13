@@ -1,3 +1,4 @@
+const {errorHandler} = require('./middleware/errorMiddleware')
 const path = require('path');
 const express = require('express');
 const dotenv = require('dotenv').config();
@@ -19,6 +20,7 @@ app.use(express.urlencoded({ extended: false }));
 // express routes
 app.use('/api/goals', require('./routes/goalRoutes'))
 
+app.use(errorHandler)
 
 
 
